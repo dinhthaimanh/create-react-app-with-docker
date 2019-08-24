@@ -10,7 +10,6 @@ services:
     ports:
       - ${REACT_APP_PORT}:3000
     volumes:
-      - ./frontend/src:/usr/cr-app/frontend/src
-      - ./frontend/public:/cr-app/frontend/public
+      - ./frontend:/frontend
     command: yarn start
 
