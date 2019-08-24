@@ -1,3 +1,3 @@
-# create-react-app-with-Docker
+# create-react-app-with-docker
 
 docker-compose up —-build
